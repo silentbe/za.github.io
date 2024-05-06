@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <title>HTML</title>
-
-  <!-- HTML -->
-
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div id="hero">
-    <div id="comp">
-      <div id="a">
-        <a href="">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </div>
-      <div id="b">
-        <a href="">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </div>
-      <div id="b">
-        <a href="">
-          <i class="fa fa-google"></i>
-        </a>
-      </div>
-      <div id="c">
-        <a href="">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-  <!-- Project -->
-  <script src="main.js"></script>
-</body>
-
-</html>
+*{
+  margin: 0%;
+  padding: 0%;
+  
+}
+body {
+    font-size: 15pt;
+}
+#hero{
+  background: #373838;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#comp{
+  border: 2px solid black;
+  display: flex;
+  
+}
+i{
+  margin: 8vw;
+  color: #FFFFFF;
+}
