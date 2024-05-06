@@ -1,45 +1,25 @@
-/*     border     */
-.bdr{
-  border: 2px solid red;
+*{
+  margin: 0%;
+  padding: 0%;
+  
 }
-.bdy{
-  border: 2px solid yellow;
+body {
+    font-size: 15pt;
 }
-.bdc{
-  border: 2px solid cyan;
-}
-.bdb{
-  border: 2px solid black;
-}
-.bdbl{
-  border: 2px solid blue;
-}
-.bdg{
-  border: 2px solid green;
-}
-/*     background     */
-.bgr{
-  background: red;
-}
-.bgy{
-  background: yellow;
-}
-.bgc{
-  background:  cyan;
-}
-.bgb{
-  background:  black;
-}
-.bgbl{
-  background: blue;
-}
-.bgg{
-  background: green;
-}
-/*     display     */
-.flex{
+#hero{
+  background: #373838;
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.grid{
-  display: grid;
+#comp{
+  border: 2px solid black;
+  display: flex;
+  
+}
+i{
+  margin: 8vw;
+  color: #FFFFFF;
 }
