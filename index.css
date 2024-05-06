@@ -1,37 +1,48 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
-nav{
-  width: auto;
-  border: 2px solid #FFA200;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-menu{
-  border: 2px solid #00D69D;
-}
-menu h{
-  border: 2px solid #73D600;
-  font-size: 2em;
-  width: 100px;
-}
-#profN p{
-  font-size: 1.4em;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
 
 
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+  <div id="hero">
+    <div id="comp">
+      <div id="a">
+        <a href="">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+      <div id="b">
+        <a href="">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+      <div id="b">
+        <a href="">
+          <i class="fa fa-google"></i>
+        </a>
+      </div>
+      <div id="c">
+        <a href="">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
 
-
-header{
-  border: 2px solid #A06703;
-  width: 100vw;
-  height: 35vh;
-  text-align: center;
-}
-header h{
-  font-size: 2em;
-}
+</html>
