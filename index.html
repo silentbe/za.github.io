@@ -1,73 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>twoo.2</title>
+  <style>
+    body {
+      margin: 0px;
+      background: black;
+      color: cyan;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-  <title>HTML</title>
+    input {
+      width: 50px;
+      height: 50px;
+      background: #FFFFFF3B;
+      border-radius: 100%;
+      position: absolute;
+      animation: silent 1s 1s 1 forwards;
 
-  <!-- HTML -->
+    }
 
+    input:hover {
+      width: 70px;
+    }
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="/style.css">
+    @keyframes silent {
+      from {}
+
+      to {
+        width: 100px;
+        height: 100px;
+        box-shadow: 1px 1px 100px cyan;
+      }
+    }
+
+    #username {
+      animation: user 3s 1s 1 forwards;
+    }
+
+    @keyframes user {
+      from {
+        top: 0px;
+      }
+
+      to {
+        top: 25vh;
+        box-shadow: 1px 1px 50px red;
+      }
+    }
+
+    #number {
+      animation: num 3s 1s 1 forwards;
+    }
+
+    @keyframes num {
+      from {
+        top: 0px;
+        left: 50vw;
+      }
+
+      to {
+        top: 35vh;
+        left: 10vw;
+        box-shadow: 1px 1px 50px red;
+      }
+    }
+
+    #email {
+      animation: email 3s 1s 1 forwards;
+    }
+
+    @keyframes email {
+      from {
+        bottom: 0px;
+        right: 50vw;
+      }
+
+      to {
+        bottom: 45vh;
+        right: 10vw;
+        box-shadow: 1px 1px 50px red;
+      }
+    }
+
+    #passward {
+      animation: pass 3s 1s 1 forwards;
+    }
+
+    @keyframes pass {
+      from {
+        bottom: 0px;
+        left: 50vw;
+      }
+
+      to {
+        bottom: 35vh;
+        left: 10vw;
+        box-shadow: 1px 1px 50px red;
+      }
+    }
+
+    @media (max-width 220px) {
+      input {
+        width: 200px;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
-  <div id="hero">
-    <div id="comp">
-      <div id="a">
-        <a href="">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </div>
-      <div id="b">
-        <a href="">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </div>
-      <div id="b">
-        <a href="">
-          <i class="fa fa-google"></i>
-        </a>
-      </div>
-      <div id="c">
-        <a href="">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-<style>
 
-*{
-  margin: 0%;
-  padding: 0%;
-  
-}
-body {
-    font-size: 15pt;
-}
-#hero{
-  background: #373838;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#comp{
-  display: flex;
-}
-i{
-  margin: 8vw;
-  color: #FFFFFF;
-}
-</style>
- 
+  <input type="username" id="username" placeholder="username" required>
+  <input type="number" id="number" placeholder="number" required>
+  <input type="email" id="email" placeholder="email" required>
+  <input type="password" id="passward" placeholder="passward" required>
+  <input type="submit" id="submit">
+
 </body>
 
 </html>
+
+
+
